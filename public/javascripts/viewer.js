@@ -15,7 +15,7 @@ let width, height
 
 let scale = 1, positionX = 0, positionY = 0
 
-let iterations = 100
+let iterations = 50
 
 let positionLabel, scaleLabel
 
@@ -183,7 +183,7 @@ function changeView(e) {
     positionY = newY
 
     // increases scale
-    scale *= 1.1
+    scale *= 1.3
 
     // requests new frame to be drawn
     window.requestAnimationFrame(draw)
